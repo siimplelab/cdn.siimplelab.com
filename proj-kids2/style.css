@@ -1,0 +1,127 @@
+/* FONTS */
+
+  @font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.siimplelab.com/fonts/waguri/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+/* HEADER */
+  #doz_header_wrap .inline-inside  {
+ height: 100px; 
+}
+
+#doz_header_wrap .inline-col-group-center {
+    text-align: right;
+}
+
+#doz_header_wrap .widget.button a {
+    font-weight: bold;
+}
+  
+  /* PAGE TITLE */
+  .page-title {
+	font-family: 'WAGURITTF';
+  }
+  
+  /* BUTTON */
+  html .btn, .visual_section a.btn {
+	letter-spacing: 0;
+  }
+  
+/* FOOTER */
+.footer {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* FOOTER LEFT */
+.footer-left {
+    flex: 0 0 auto;
+    margin-right: auto;
+}
+
+.footer-left .footer-logo {
+    margin-bottom: 2.4rem;
+  margin-top: -0.8rem;
+}
+
+.footer-left .footer-logo img {
+    margin-top: 0;
+}
+
+.footer-left .footer-cta {
+    margin-bottom: 3.2rem;
+}
+
+.footer-left .footer-text-btn {
+    font-size: 1.4rem;
+}
+
+.footer-left .footer-copyright {
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+}
+  
+.footer-left .footer-copyright span {
+		  color: #D8D9DA !important;
+
+}
+
+.footer-right {
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+.footer-right .contact-item-group {
+    list-style: none;
+}
+
+.footer-right .contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2.4rem;
+}
+
+.footer-right .contact-item img {
+    width: 32px;
+    margin-right: 1.6rem;
+    margin-top: 0;
+}
+
+
+.footer-right .contact-item-content-label {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.footer-right .contact-item-content-value {
+    font-size: 1.4rem;
+}
+  
+.footer-right .contact-item-content-value span {
+  color: #D8D9DA !important;
+}
+
+
+.footer-right .social-item-group {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right .social-item {
+    margin-right: .8rem;
+    
+}
+
+.footer-right .social-item:last-child {
+    margin-right: 0;
+}
+
+.footer-right .social-item img {
+    width: 24px;
+}
