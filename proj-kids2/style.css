@@ -1,15 +1,16 @@
 /* FONTS */
 
-  @font-face {
+@font-face {
     font-family: 'WAGURITTF';
     src: url('https://cdn.siimplelab.com/fonts/waguri/WAGURITTF.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
-  
+
 /* HEADER */
-  #doz_header_wrap .inline-inside  {
- height: 100px; 
+#doz_header_wrap .inline-inside {
+    height: 100px;
+    max-width: 1280px;
 }
 
 #doz_header_wrap .inline-col-group-center {
@@ -19,23 +20,28 @@
 #doz_header_wrap .widget.button a {
     font-weight: bold;
 }
-  
-  /* PAGE TITLE */
-  .page-title {
-	font-family: 'WAGURITTF';
-  }
+
+/* PAGE TITLE */
+.page-title {
+    font-family: 'WAGURITTF';
+}
 
 /* SECTION TITLE */
-	.section-title {
-		font-family: 'WAGURITTF';
-	  font-size: 3.2rem;
-	}
-  
-  /* BUTTON */
-  html .btn, .visual_section a.btn {
-	letter-spacing: 0;
-  }
-  
+.section-title {
+    font-family: 'WAGURITTF';
+    font-size: 3.2rem;
+}
+
+.section-sub-title {
+    opacity: .5;
+}
+
+/* BUTTON */
+html .btn,
+.visual_section a.btn {
+    letter-spacing: 0;
+}
+
 /* FOOTER */
 .footer {
     display: flex;
@@ -52,7 +58,7 @@
 
 .footer-left .footer-logo {
     margin-bottom: 2.4rem;
-  margin-top: -0.8rem;
+    margin-top: -0.8rem;
 }
 
 .footer-left .footer-logo img {
@@ -71,9 +77,9 @@
     font-size: 1.2rem;
     margin-top: 2.4rem;
 }
-  
+
 .footer-left .footer-copyright span {
-		  color: #D8D9DA !important;
+    color: #D8D9DA !important;
 
 }
 
@@ -107,9 +113,9 @@
 .footer-right .contact-item-content-value {
     font-size: 1.4rem;
 }
-  
+
 .footer-right .contact-item-content-value span {
-  color: #D8D9DA !important;
+    color: #D8D9DA !important;
 }
 
 
@@ -121,7 +127,7 @@
 
 .footer-right .social-item {
     margin-right: .8rem;
-    
+
 }
 
 .footer-right .social-item:last-child {
