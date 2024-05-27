@@ -24,6 +24,12 @@
   .page-title {
 	font-family: 'WAGURITTF';
   }
+
+/* SECTION TITLE */
+	.section-title {
+		font-family: 'WAGURITTF';
+	  font-size: 3.2rem;
+	}
   
   /* BUTTON */
   html .btn, .visual_section a.btn {
