@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.siimplelab.com/fonts/laundrygothic/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* HEADER */
 #doz_header_wrap .inline-inside {
     height: 100px;
@@ -148,7 +155,6 @@ html .btn,
     border-radius: 16px !important;
     box-shadow: 0 10px 16px rgba(0,0,0,0.2);
     overflow:visible;
-    
 }
 
 .gallery2.slide_02.owl-carousel .owl-stage-outer {
@@ -160,10 +166,11 @@ overflow: visible;
 }
 
 .landing-review-point-item {
-    font-family: 'WAGURITTF';
+    font-family: 'TTLaundryGothicB';
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #806619;
 }
 
 .landing-review-point-item img {
