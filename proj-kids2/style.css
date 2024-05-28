@@ -28,6 +28,13 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 991px) {
+    #doz_header_wrap .inline-inside {
+        height: auto;
+    }
+    
+}
+
 /* PAGE TITLE */
 .page-title {
     font-family: 'WAGURITTF';
