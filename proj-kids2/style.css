@@ -137,3 +137,35 @@ html .btn,
 .footer-right .social-item img {
     width: 24px;
 }
+
+/* LANDING PAGE REVIEW SECTION */
+.widget._gallery_wrap .owl-carousel .img_wrap {
+    min-height: 297px !important;
+    overflow:visible;
+}
+
+.widget._gallery_wrap .owl-carousel .item_container {
+    border-radius: 16px !important;
+    box-shadow: 0 10px 16px rgba(0,0,0,0.2);
+    overflow:visible;
+    
+}
+
+.gallery2.slide_02.owl-carousel .owl-stage-outer {
+overflow: visible;
+}
+
+.landing-review-title {
+    font-family: 'WAGURITTF';
+}
+
+.landing-review-point-item {
+    font-family: 'WAGURITTF';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-review-point-item img {
+    margin-right: .8rem !important;
+}
