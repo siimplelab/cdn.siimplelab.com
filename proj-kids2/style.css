@@ -35,6 +35,17 @@
     
 }
 
+/* GLOBAL MEDIA QUERIES */
+@media screen and (max-width: 991px) {
+	html {
+		font-size: 7.5px !important;
+	}
+	
+	#doz_header_wrap .inline-inside {
+		border-bottom: 1px solid #eaeaea;
+	}
+}
+
 /* PAGE TITLE */
 .page-title {
     font-family: 'WAGURITTF';
