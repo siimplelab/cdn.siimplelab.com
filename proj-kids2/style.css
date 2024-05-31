@@ -15,7 +15,23 @@
 }
 
 
-/* 컨텐츠 서브 타이틀 */
+/* 컨텐츠 타이틀 */
+
+.content-title {
+	    font-family: 'WAGURITTF';
+font-size: 2.4rem;
+	    color: #1C170D !important;
+
+}
+
+.content-small-title {
+	font-size: 1.8rem;
+	
+	font-family: 'TTLaundryGothicB';
+	    
+	    color: #806619 !important;
+}
+
 .content-sub-title {
 	    font-family: 'TTLaundryGothicB';
 	    font-size: 2.2rem;
