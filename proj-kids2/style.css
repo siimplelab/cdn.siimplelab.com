@@ -209,3 +209,26 @@ html .btn,
     width: 160px;
 }
 }
+
+/* 푸터 - 이용안내 영역*/
+.section_wrap main .col-dz-12 .widget.button {
+	    display: flex;
+    width: 100%;
+    max-width: 1280px !important;
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.section_wrap main .col-dz-12 .widget.button .btn {
+	padding: 0;
+	padding-right: 1.6rem;
+}
+
+.section_wrap main .col-dz-12 .widget.button .btn:hover {
+	text-decoration: underline;
+}
+
+.section_wrap main .col-dz-12 .widget.button .inline-blocked:last-child .btn {
+	padding-right: 0;
+}
