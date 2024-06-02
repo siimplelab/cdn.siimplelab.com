@@ -14,7 +14,9 @@
     font-style: normal;
 }
 
-
+.btn-active {
+	background: #fc3 !important;
+}
 /* 컨텐츠 타이틀 */
 
 .content-title {
