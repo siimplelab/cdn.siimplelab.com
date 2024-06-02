@@ -211,7 +211,7 @@ html .btn,
 }
 
 /* 푸터 - 이용안내 영역*/
-.section_wrap main .col-dz-12 .widget.button {
+.section_wrap main div:not(.inside) .col-dz-12 .widget.button {
 	    display: flex;
     width: 100%;
     max-width: 1280px !important;
@@ -220,15 +220,15 @@ html .btn,
     padding-right: 4rem;
 }
 
-.section_wrap main .col-dz-12 .widget.button .btn {
+.section_wrap main div:not(.inside) .col-dz-12 .widget.button .btn {
 	padding: 0;
 	padding-right: 1.6rem;
 }
 
-.section_wrap main .col-dz-12 .widget.button .btn:hover {
+.section_wrap main div:not(.inside) .col-dz-12 .widget.button .btn:hover {
 	text-decoration: underline;
 }
 
-.section_wrap main .col-dz-12 .widget.button .inline-blocked:last-child .btn {
+.section_wrap main div:not(.inside) .col-dz-12 .widget.button .inline-blocked:last-child .btn {
 	padding-right: 0;
 }
