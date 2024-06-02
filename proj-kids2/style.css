@@ -232,3 +232,21 @@ html .btn,
 .section_wrap main > div:not(.inside) .col-dz-12 .widget.button .inline-blocked:last-child .btn {
 	padding-right: 0;
 }
+
+
+/* 헤더 로그인 추가 */
+#s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div > div.inline-col-group.inline-col-group-right > .inline-col:nth-child(2) {
+	position: absolute;
+	right: 0;
+	top: .4rem;
+}
+
+#s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div > div.inline-col-group.inline-col-group-right > .inline-col:nth-child(2) a span {
+	font-size: 1.2rem !important;
+	color: #767676 !important;
+	font-weight: normal !important;
+	    padding-right: .4rem;
+}
+#s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div > div.inline-col-group.inline-col-group-right > .inline-col:nth-child(2) a span:hover {
+	color: #000 !important;
+}
