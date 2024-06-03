@@ -150,7 +150,10 @@ html .btn,
     display: flex;
     align-items: flex-start;
     margin-bottom: 2.4rem;
-	    flex: 0 0 4.4rem;
+	    
+}
+.footer-right .contact-item-icon {
+	flex: 0 0 4.4rem;
 }
 .footer-right .contact-item-content-value {
 line-height: 1.3;
