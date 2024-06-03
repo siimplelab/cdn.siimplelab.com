@@ -353,3 +353,41 @@ html .btn,
 	}
 	
 }
+
+#s20240603b7480bfa2c623 .inline-inside {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div {
+	display: flex;
+	align-items: center;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293  .inline-col-group-left {
+	height: 100px !important;
+	display: inline-flex;
+	align-items: center;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293  .inline-col-group-center {
+	height: 100px !important;
+	display: inline-flex;
+	align-items: center;
+	margin-left: auto;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293 .inline-col-group-right {
+	height: 100px !important;
+	display: inline-flex;
+	align-items: center;
+	
+}
+
+#s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div > div.inline-col-group.inline-col-group-right > .inline-col:nth-child(2) {
+	right: 2.0rem !important;
+}
+
+.footer {
+	margin: 0 !important;
+}
+
+.section_wrap main > div:not(.inside) .col-dz-12 .widget.button {
+	margin: 0 !important;
+}
