@@ -391,3 +391,67 @@ html .btn,
 .section_wrap main > div:not(.inside) .col-dz-12 .widget.button {
 	margin: 0 !important;
 }
+
+#s20240603b7480bfa2c623 .inline-inside {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div {
+	display: flex;
+	align-items: center;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293  .inline-col-group-left {
+	height: 100px !important;
+	display: inline-flex;
+	align-items: center;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293  .inline-col-group-center {
+	height: 100px !important;
+	display: inline-flex;
+	align-items: center;
+	margin-left: auto;
+}
+ #doz_header_wrap #s20240514ed9b9467ca293 .inline-col-group-right {
+	height: 100px !important;
+	display: inline-flex;
+	align-items: center;
+	
+}
+
+#s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div > div.inline-col-group.inline-col-group-right > .inline-col:nth-child(2) {
+	right: 2.0rem !important;
+}
+
+html .footer {
+	margin: 0 auto !important;
+		max-width: 1324px !important;
+
+}
+html .footer-copyright {
+	margin: 0 auto !important;
+		max-width: 1324px !important;
+	
+}
+
+html .section_wrap main > div:not(.inside) .col-dz-12 .widget.button {
+	margin: 0 auto !important;
+		max-width: 1324px !important;
+padding:0 !important;
+}
+html #doz_header_wrap .inline-inside {
+	max-width: 1324px !important;
+}
+@media screen and (max-width: 1400px) {
+	html .section_wrap main > div:not(.inside) .col-dz-12 .widget.button {
+		margin: 0 !important;
+		width: 100% !important;
+		padding-left: 32px !important;
+		padding-right: 32px !important;
+	}	
+	
+html #doz_header_wrap .inline-inside {
+		padding-left: 32px !important;
+		padding-right: 32px !important;
+	}
+}
+
