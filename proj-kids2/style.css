@@ -127,12 +127,12 @@ html .btn,
     font-size: 1.4rem;
 }
 
-.footer-left .footer-copyright {
+.footer-copyright {
     font-size: 1.2rem;
     margin-top: 2.4rem;
 }
 
-.footer-left .footer-copyright span {
+.footer-copyright span {
     color: #D8D9DA !important;
 
 }
