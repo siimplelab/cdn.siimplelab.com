@@ -253,6 +253,36 @@ html .btn,
 	color: #000 !important;
 }
 
+#w20240603afe27f7370aee .inline_widget a span.text, #w20240603afe27f7370aee .inline_widget .use_info .info_name {
+		font-size: 1.2rem !important;
+	color: #767676 !important;
+	font-weight: normal !important;
+	    padding-right: .4rem;
+}
+
+#w20240603afe27f7370aee .inline_widget a span.text, #w20240603afe27f7370aee .inline_widget .use_info .info_name:hover {
+	color: #000 !important;
+
+}
+		
+
+#w20240603afe27f7370aee .inline_widget a span.text {
+		font-size: 1.2rem !important;
+	color: #767676 !important;
+	font-weight: normal !important;
+	    padding-right: .4rem;
+}
+
+#w20240603afe27f7370aee .inline_widget a span.text:hover {
+	color: #000 !important;
+
+}
+ #s20240603b7480bfa2c623 .inline-col-group .inline-col:nth-child(2) {
+		position: absolute;
+	right: 0;
+	top: .4rem;
+}
+
 /* FAB */
 
 /* 플로팅 버튼 */
