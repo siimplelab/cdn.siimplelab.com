@@ -283,6 +283,11 @@ html .btn,
   background-size: contain;
   font-weight: bold;
 }
+
+#fab-chat:hover {
+  background: #5cc865 ;
+
+}
 #fab-chat > a > span {
 	padding-right: 1.2rem;
 }
