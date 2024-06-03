@@ -223,6 +223,13 @@ html .btn,
     padding-right: 4rem;
 }
 
+@media screen and (max-width: 991px) {
+	.section_wrap main > div:not(.inside) .col-dz-12 .widget.button {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 .section_wrap main > div:not(.inside) .col-dz-12 .widget.button .btn {
 	padding: 0;
 	padding-right: 1.6rem;
@@ -321,4 +328,27 @@ html .btn,
 }
 #fab-chat > a > span {
 	padding-right: 1.2rem;
+}
+
+.footer{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+@media screen and (max-width: 991px) {
+	.footer{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+	.section_wrap main > div:not(.inside) .col-dz-12 .widget.button {
+		padding-left: 32px !important;
+		padding-right: 32px !important;
+	}
+@media screen and (max-width: 767px) {
+	.section_wrap main > div:not(.inside) .col-dz-12 .widget.button  {
+		padding-left: 16px !important;
+		padding-right: 16px !important;
+	}
+	
 }
