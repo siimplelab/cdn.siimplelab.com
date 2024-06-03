@@ -252,3 +252,24 @@ html .btn,
 #s20240514ed9b9467ca293 > div.inline-inside._inline-inside > div > div.inline-col-group.inline-col-group-right > .inline-col:nth-child(2) a span:hover {
 	color: #000 !important;
 }
+
+/* 플로팅 버튼 */
+#fab-chat {
+  display: inline-flex;
+  position: fixed;
+  color: #fff;
+  padding: 1.6rem;
+  right: 4rem;
+  bottom: 4rem;
+  background: green;
+  border-radius: 2000px;
+}
+
+#fab-chat > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+}
