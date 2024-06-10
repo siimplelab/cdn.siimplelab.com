@@ -477,5 +477,7 @@ html #doz_header_wrap .inline-inside {
 		padding-left: 15px !important;
 		padding-right: 15px !important;
 	}
+	html #s20240514ed9b9467ca293 .inline-inside {
+		padding-left: 0 !important; padding-right: 0 !important; }
 }
 
