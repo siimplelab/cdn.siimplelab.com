@@ -489,10 +489,10 @@ html body #doz_header_wrap .inline-inside {
 @media screen and (max-width: 1400px) {
 	html #s20240514ed9b9467ca293 .inline-inside {
 	padding-left: 32px !important; padding-right: 32px !important; }
-}
 
 html body #doz_header_wrap .inline-inside {
 	padding-left: 32px !important;
 	padding-right: 32px !important;
 }
+
 }
