@@ -488,11 +488,21 @@ html body #doz_header_wrap .inline-inside {
 
 @media screen and (max-width: 1400px) {
 	html #s20240514ed9b9467ca293 .inline-inside {
-	padding-left: 32px !important; padding-right: 32px !important; }
+		padding-left: 32px !important; 
+		padding-right: 32px !important; 
+	}
 
-html body #doz_header_wrap .inline-inside {
-	padding-left: 32px !important;
-	padding-right: 32px !important;
+	html body #doz_header_wrap .inline-inside {
+		padding-left: 32px !important;
+		padding-right: 32px !important;
+	}
 }
 
-}
+/* 헤더 크기 고정 */
+ .scroll_logo {
+ 	width: 152px !important;
+ }
+ 
+ .scroll_logo.fixed {
+ 	width: 148px !important;
+ }
